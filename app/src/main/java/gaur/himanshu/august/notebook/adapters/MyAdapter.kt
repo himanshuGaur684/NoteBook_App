@@ -40,10 +40,10 @@ class MyAdapter(val clickHandler: ClickHandler) : RecyclerView.Adapter<MyAdapter
             clickHandler.handleLongClick(list[position])
             return@setOnLongClickListener true
         }
-
         holder.root.setOnClickListener {
             clickHandler.handleClick(list[position])
         }
+
     }
 
     override fun getItemCount(): Int {

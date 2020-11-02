@@ -52,8 +52,7 @@
             app:popUpToInclusive="true" />
         <argument
             android:name="note_book"
-            app:argType="gaur.himanshu.august.notebook.model.NoteBook"
-            />
+            app:argType="gaur.himanshu.august.notebook.model.NoteBook"/>
 
     </fragment>
 </navigation>

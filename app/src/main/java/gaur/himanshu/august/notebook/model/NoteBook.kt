@@ -9,9 +9,9 @@ import kotlinx.android.parcel.Parcelize
 @Entity
 @Parcelize
 class NoteBook(
-    val title: String,
-    val desc: String?
-) :Parcelable{
+    var title: String,
+    var desc: String?
+) : Parcelable {
     @PrimaryKey(autoGenerate = true)
     var id: Int = 0
 }

@@ -71,8 +71,8 @@ class MainFragment : Fragment(),ClickHandler{
     }
 
     override fun handleClick(noteBook: NoteBook) {
-        val noteBook= bundleOf("ote_book" to noteBook)
-        navController.navigate(R.id.action_mainFragment_to_editFragment,noteBook)
+        val bundle= bundleOf("note_book" to noteBook)
+        navController.navigate(R.id.action_mainFragment_to_editFragment,bundle)
     }
 
 
